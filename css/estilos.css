@@ -1,0 +1,182 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url();
+}
+
+
+header{
+    background-color: 424C55;
+    width: 100%;
+    height: 280px;
+}
+        #log1{
+ 
+         margin-left: 37%;
+
+        
+        }
+        
+#log2{
+    margin-top: 10px;
+    margin-left: 5%;
+
+   
+   }
+body{
+
+background-color: F5EDF0;
+
+}
+nav{
+    background-color: D1CCDC;
+    text-align: center; 
+    margin-bottom: 30px;
+    
+}
+#inge {
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#inge:hover {
+    transform: scale(2.5); /* Agranda el texto en hover */
+    color: rgb(37, 138, 42); /* Cambia el color del texto al pasar el cursor */
+}
+
+#navfun {
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 25px;
+    background-color: 424C55;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px; /* Centra verticalmente el texto */
+}
+
+.textnav{
+border: none;
+border-radius: 5px;
+height: 50px;
+align-content: center;
+display: inline-block;
+margin: 25px;
+
+background-color: 424C55;
+width: 200px;
+  
+}
+
+#Cont{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+
+
+
+.cajas {
+    margin-left: 10%;
+    margin-bottom: 20px; /* Ajustado para evitar exceso de espacio */
+    background-color: 886F68;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    overflow: hidden;
+}
+
+.cajas summary {
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center; /* Centra el texto del resumen */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px; /* Espacio entre el título y la descripción */
+}
+
+.cajas summary:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
+
+.cajas[open] {
+    height: auto;
+    transition: height 0.3s ease-in-out;
+}
+
+.cajas article {
+    text-align: left; /* Alinea el texto de la descripción a la derecha */
+    padding-right: 10px; /* Espaciado para que no quede pegado al borde */
+    font-size: 16px; /* Ajusta el tamaño del texto si es necesario */
+}
+
+#imgpropuesta{
+    text-align: center;
+}
+
+
+.separacion{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    
+}
+.sep1{
+    margin-left: 5px;
+    margin-bottom: 1px;
+}
+
+
+/*footer*/
+footer{
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#desprincipal{
+
+font-size: 20px;
+color: rgb(22, 22, 21);
+
+}
+#cuesta{
+    color: white;
+    text-decoration: none;
+    margin-left: 38%;
+}
+.orden{
+margin-left: 30px;
+margin-bottom: 15px;
+color: white;
+line-height: 5px;
+
+}
+#boton{
+
+    margin-left: 310px;
+
+}
+.It{
+
+
+    margin-left: 40%;
+}
+#ft{
+
+    color: white;
+
+}
+
+footer{
+
+    background-color: 424C55;
+    padding: 10px;
+    height: 100px;
+}
